@@ -20,16 +20,16 @@
 
 @media only screen and (max-width: 800px) {
     .father_of_boxes {
-        grid-template-columns: repeat( 2, 400px);
-        grid-template-rows: repeat( 3, 400px);
+        grid-template-columns: repeat( 2, 300px);
+        grid-template-rows: repeat( 3, 300px);
         width: 800px;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .father_of_boxes {
-        grid-template-columns: repeat( 1, 400px);
-        grid-template-rows: repeat( 6, 400px);
-        width: 400px;
+        grid-template-columns: repeat( 1, 200px);
+        grid-template-rows: repeat( 6, 200px);
+        width: 500px;
     }
 }
